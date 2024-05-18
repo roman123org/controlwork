@@ -26,6 +26,8 @@ header {
 header>h2 {
     padding-left: 50px;
     padding-top: 20px;
+    width: 400px;
+    display: flex;
 }
 
 header>a {
@@ -36,6 +38,11 @@ header>a {
 
 header>.write {
     margin-right: 620px;
+    width: 200px;
+}
+
+header>.img {
+    display: flex;
 }
 
 header>.img>a>img {
@@ -498,6 +505,7 @@ input[type="checkbox"] {
     border: 1px solid #000;
     padding: 10px;
     margin-top: 20px;
+    border-radius: 10px;
 }
 
 #form {
@@ -507,6 +515,7 @@ input[type="checkbox"] {
 footer {
     margin-top: 30px;
     height: 150px;
+    width: auto;
 }
 
 footer>.link>a>img {
@@ -526,4 +535,386 @@ footer>h3 {
     text-align: center;
     margin-top: 20px;
     font-weight: normal;
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+    body {
+        width: 1800px;
+    }
+
+    .header1 {
+        width: 200px;
+    }
+
+    header>a {
+        margin-left: 60px;
+    }
+
+    .write {
+        width: 800px;
+    }
+
+    .stories1 {
+        width: 850px;
+    }
+
+    .stories1>.text1>h3 {
+        width: 350px;
+    }
+
+    .stories1>.text1>h4 {
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .stories1>img {
+        width: 400px;
+        height: 602px;
+    }
+
+    .stories1>.text1>a {
+        margin-left: 60px;
+        border: 1px solid #000;
+        position: absolute;
+        padding: 15px 30px 15px 30px;
+        font-size: x-large;
+        border-radius: 10px;
+    }
+
+    #stories>hr {
+        margin-top: 50px;
+    }
+
+    .stories2 {
+        margin-top: 0px;
+    }
+
+    .stories2 {
+        display: flex;
+        height: 552px;
+        width: 1518px;
+    }
+
+    .stories2>img {
+        width: auto;
+        height: 602px;
+    }
+
+    .stories2>.text1 {
+        width: 408px;
+    }
+
+    .stories2>.text1>h1 {
+        font-size: 50px;
+        margin-left: 50px;
+        margin-top: 150px;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+
+    .stories2>.text1>h3 {
+        font-weight: normal;
+        width: 600px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        width: 350px;
+    }
+
+    .stories2>.text1>h4 {
+        font-weight: normal;
+        width: 600px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+        width: 350px;
+    }
+
+    .stories2>.text1>a {
+        margin-left: 50px;
+        border: 1px solid #000;
+        position: absolute;
+        padding: 15px 30px 15px 30px;
+        font-size: x-large;
+        border-radius: 10px;
+    }
+
+    #gallery>.gallery {
+        margin-left: -118px;
+    }
+
+    .image-container {
+        position: relative;
+        width: 420px;
+        overflow: hidden;
+    }
+
+    .line {
+        flex-direction: row;
+    }
+
+    #features>.line>.line1,
+    .line2 {
+        flex-direction: column;
+    }
+
+    .line1>.photo1 {
+        margin-left: 50px;
+        width: 350px;
+        height: 300px;
+        border: 1px solid #000;
+    }
+
+    .line1>.photo1>img {
+        padding-left: 150px;
+        padding-top: 40px;
+    }
+
+    .line1>.photo1>h3 {
+        padding-left: 155px;
+        padding-top: 30px;
+    }
+
+    .line1>.photo1>p {
+        padding-top: 40px;
+        margin-left: 70px;
+        text-align: center;
+        width: 200px;
+    }
+
+    .line1>.photo2 {
+        margin-left: 50px;
+        width: 350px;
+        height: 300px;
+        border: 1px solid #000;
+    }
+
+    .line1>.photo2>img {
+        padding-left: 150px;
+        padding-top: 40px;
+    }
+
+    .line1>.photo2>h3 {
+        padding-left: 155px;
+        padding-top: 30px;
+    }
+
+    .line1>.photo2>p {
+        padding-top: 40px;
+        margin-left: 70px;
+        text-align: center;
+        width: 200px;
+    }
+
+    .line1>.photo3 {
+        margin-left: 50px;
+        width: 350px;
+        height: 300px;
+        border: 1px solid #000;
+    }
+
+    .line1>.photo3>img {
+        padding-left: 150px;
+        padding-top: 40px;
+    }
+
+    .line1>.photo3>h3 {
+        padding-left: 155px;
+        padding-top: 30px;
+    }
+
+    .line1>.photo3>p {
+        padding-top: 40px;
+        margin-left: 70px;
+        text-align: center;
+        width: 200px;
+    }
+
+    .line2>.photo4 {
+        margin-left: 0;
+        width: 350px;
+        height: 300px;
+        border: 1px solid #000;
+    }
+
+    .line2>.photo4>img {
+        padding-left: 150px;
+        padding-top: 40px;
+    }
+
+    .line2>.photo4>h3 {
+        padding-left: 155px;
+        padding-top: 30px;
+    }
+
+    .line2>.photo4>p {
+        padding-top: 40px;
+        margin-left: 70px;
+        text-align: center;
+        width: 200px;
+    }
+
+    .line2>.photo5 {
+        width: 350px;
+        height: 300px;
+        border: 1px solid #000;
+    }
+
+    .line2>.photo5>img {
+        padding-left: 150px;
+        padding-top: 40px;
+    }
+
+    .line2>.photo5>h3 {
+        padding-left: 155px;
+        padding-top: 30px;
+    }
+
+    .line2>.photo5>p {
+        padding-top: 40px;
+        margin-left: 70px;
+        text-align: center;
+        width: 200px;
+    }
+
+    .line2>.photo6 {
+        width: 350px;
+        height: 300px;
+        border: 1px solid #000;
+    }
+
+    .line2>.photo6>img {
+        padding-left: 150px;
+        padding-top: 40px;
+    }
+
+    .line2>.photo6>h3 {
+        padding-left: 155px;
+        padding-top: 30px;
+    }
+
+    .line2>.photo6>p {
+        padding-top: 40px;
+        margin-left: 70px;
+        text-align: center;
+        width: 200px;
+    }
+
+    #form>h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: normal;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    form>.all>.input>label {
+        margin-left: 30px;
+        font-size: 30px;
+        font-weight: bold;
+        width: 100px;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        margin-left: 30px;
+        width: 230px;
+    }
+
+    .radio {
+        display: flex;
+        font-size: larger;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .radio>h3:first-child {
+        margin-left: 30px;
+    }
+
+    input[type="radio"] {
+        margin-left: 50px;
+    }
+
+    .topic {
+        display: flex;
+        flex-direction: column;
+        font-size: larger;
+        margin-bottom: 20px;
+    }
+
+    .topic>h3 {
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    select {
+        width: 770px;
+        margin-left: 30px;
+    }
+
+    textarea {
+        margin-left: 30px;
+        width: 765px;
+        height: 153px;
+    }
+
+    .textarea>h3 {
+        margin-left: 30px;
+        margin-bottom: 10px;
+        font-size: x-large;
+    }
+
+    .checkbox {
+        display: flex;
+    }
+
+    input[type="checkbox"] {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .checkbox>h3 {
+        margin-left: 20px;
+        margin-top: 35px;
+    }
+
+    .footerform {
+        display: flex;
+        justify-content: space-between;
+        width: 770px;
+    }
+
+    .footerform>a {
+        border: 1px solid #000;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    #form {
+        margin-bottom: 20px;
+        width: 800px;
+    }
+    footer{
+        margin-top: 30px;
+        height: 150px;
+        width: 770px;
+    }
+    footer>.link>a>img{
+        width: 50px;
+        transition: 0.2s;
+    }
+    footer>.link>a>img:hover{
+        transform: scale(1.5);
+    }
+    footer>.link{
+        text-align: center;
+    }
+    footer>h3{
+        text-align: center;
+        margin-top: 20px;
+        font-weight: normal;
+    }
 }
