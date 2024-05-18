@@ -401,3 +401,105 @@ header>.img>a:hover>img {
     padding-left: 205px;
     padding-top: 150px;
 }
+
+#form>h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+form>.all>.input>label {
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    margin-left: 150px;
+    width: 300px;
+}
+
+.all {
+    display: flex;
+}
+
+.radio {
+    display: flex;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.radio>h3:first-child {
+    margin-left: 150px;
+}
+
+input[type="radio"] {
+    margin-left: 50px;
+}
+
+.topic {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.topic>h3 {
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 1220px;
+    margin-left: 150px;
+}
+
+textarea {
+    margin-left: 150px;
+    width: 1215px;
+    height: 153px;
+}
+
+.textarea>h3 {
+    margin-left: 150px;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+.checkbox {
+    display: flex;
+}
+
+input[type="checkbox"] {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.checkbox>h3 {
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.footerform {
+    display: flex;
+    justify-content: space-between;
+    width: 1370px;
+}
+
+.footerform>a {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#form {
+    margin-bottom: 20px;
+}
