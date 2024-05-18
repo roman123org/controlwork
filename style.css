@@ -139,6 +139,7 @@ header>.img>a:hover>img {
     font-size: x-large;
     border-radius: 10px;
 }
+
 #gallery>h1 {
     text-align: center;
     margin-top: 20px;
@@ -232,4 +233,171 @@ header>.img>a:hover>img {
 .arrow.right {
     position: absolute;
     right: 10px;
+}
+
+#features>.header>h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+}
+
+.line1 {
+    display: flex;
+}
+
+.line1 p {
+    width: 360px;
+    margin-left: 50px;
+}
+
+.line2 p {
+    width: 360px;
+    margin-left: 50px;
+}
+
+.line1>.photo1 {
+    width: 450px;
+    height: 400px;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-left: 100px;
+}
+
+.line1>.photo1>img {
+    padding-left: 200px;
+    padding-top: 150px;
+}
+
+.line1>.photo1>h3 {
+    padding-left: 205px;
+    padding-top: 20px;
+}
+
+.line1>.photo1>p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.line1>.photo2 {
+    width: 450px;
+    height: 400px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.line1>.photo2>h3 {
+    padding-left: 205px;
+    padding-top: 20px;
+}
+
+.line1>.photo2>p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.line1>.photo2>img {
+    padding-left: 200px;
+    padding-top: 150px;
+}
+
+.line1>.photo3 {
+    width: 450px;
+    height: 400px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.line1>.photo3>h3 {
+    padding-left: 205px;
+    padding-top: 20px;
+}
+
+.line1>.photo3>p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.line1>.photo3>img {
+    padding-left: 205px;
+    padding-top: 150px;
+}
+
+.line2 {
+    display: flex;
+}
+
+.line2>.photo4 {
+    width: 450px;
+    height: 400px;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    margin-left: 100px;
+}
+
+.line2>.photo4>h3 {
+    padding-left: 205px;
+    padding-top: 20px;
+}
+
+.line2>.photo4>p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.line2>.photo4>img {
+    padding-left: 205px;
+    padding-top: 150px;
+}
+
+.line2>.photo5 {
+    width: 450px;
+    height: 400px;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.line2>.photo5>h3 {
+    padding-left: 205px;
+    padding-top: 20px;
+}
+
+.line2>.photo5>p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.line2>.photo5>img {
+    padding-left: 205px;
+    padding-top: 150px;
+}
+
+.line2>.photo6 {
+    width: 450px;
+    height: 400px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.line2>.photo6>h3 {
+    padding-left: 205px;
+    padding-top: 20px;
+}
+
+.line2>.photo6>p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.line2>.photo6>img {
+    padding-left: 205px;
+    padding-top: 150px;
 }
