@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: Garamond;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    transform: scale(1.5);
+}
+
+header {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+header>h2 {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+header>a {
+    margin-left: 20px;
+    margin-top: 22px;
+    font-size: larger;
+}
+
+header>.write {
+    margin-right: 620px;
+}
+
+header>.img>a>img {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 40px;
+    transition: 0.2s;
+}
+
+header>.img>a:hover>img {
+    transform: scale(1.5);
+}
