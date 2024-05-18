@@ -503,3 +503,27 @@ input[type="checkbox"] {
 #form {
     margin-bottom: 20px;
 }
+
+footer {
+    margin-top: 30px;
+    height: 150px;
+}
+
+footer>.link>a>img {
+    width: 50px;
+    transition: 0.2s;
+}
+
+footer>.link>a>img:hover {
+    transform: scale(1.5);
+}
+
+footer>.link {
+    text-align: center;
+}
+
+footer>h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: normal;
+}
