@@ -143,6 +143,7 @@ header>.img>a:hover>img {
     font-size: x-large;
     border-radius: 10px;
 }
+
 .stories3 {
     display: flex;
     height: 552px;
@@ -668,6 +669,7 @@ footer>h3 {
         font-size: x-large;
         border-radius: 10px;
     }
+
     .stories3 {
         width: 850px;
     }
@@ -774,7 +776,8 @@ footer>h3 {
         margin-left: 50px;
         width: 350px;
         height: 300px;
-        border: 1px solid #000;
+        border-bottom: 1px solid gray;
+        border-right: 1px solid gray;
     }
 
     .line1>.photo1>img {
@@ -798,7 +801,10 @@ footer>h3 {
         margin-left: 50px;
         width: 350px;
         height: 300px;
-        border: 1px solid #000;
+        border: none;
+        border-right: 1px solid gray;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
     }
 
     .line1>.photo2>img {
@@ -822,7 +828,9 @@ footer>h3 {
         margin-left: 50px;
         width: 350px;
         height: 300px;
-        border: 1px solid #000;
+        border: none;
+        border-right: 1px solid gray;
+        border-top: 1px solid gray;
     }
 
     .line1>.photo3>img {
@@ -846,7 +854,9 @@ footer>h3 {
         margin-left: 0;
         width: 350px;
         height: 300px;
-        border: 1px solid #000;
+        border: none;
+        border-left: 1px solid gray;
+        border-bottom: 1px solid gray;
     }
 
     .line2>.photo4>img {
@@ -869,7 +879,10 @@ footer>h3 {
     .line2>.photo5 {
         width: 350px;
         height: 300px;
-        border: 1px solid #000;
+        border: none;
+        border-left: 1px solid gray;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
     }
 
     .line2>.photo5>img {
@@ -892,7 +905,9 @@ footer>h3 {
     .line2>.photo6 {
         width: 350px;
         height: 300px;
-        border: 1px solid #000;
+        border: none;
+        border-left: 1px solid gray;
+        border-top: 1px solid gray;
     }
 
     .line2>.photo6>img {
@@ -1076,66 +1091,85 @@ footer>h3 {
     .img {
         display: none;
     }
-    .stories1{
+
+    .stories1 {
         flex-direction: column;
     }
-    .stories1>img{
+
+    .stories1>img {
         width: 600px;
         margin-top: -758px;
     }
-    .stories1>.text1>h1{
+
+    .stories1>.text1>h1 {
         margin-top: 300px;
     }
-    .stories1>.text1>h3{
+
+    .stories1>.text1>h3 {
         width: 400px;
     }
-    .stories1>.text1>h4{
+
+    .stories1>.text1>h4 {
         width: 400px;
     }
-    .stories2{
+
+    .stories2 {
         flex-direction: column;
     }
-    .stories2>img{
+
+    .stories2>img {
         width: 600px;
         margin-top: 0px;
     }
-    .stories2>.text1>h1{
+
+    .stories2>.text1>h1 {
         margin-top: 20px;
         margin-left: 45px;
     }
-    .stories2>.text1>h3{
+
+    .stories2>.text1>h3 {
         width: 400px;
         margin-left: 45px;
     }
-    .stories2>.text1>h4{
+
+    .stories2>.text1>h4 {
         width: 400px;
         margin-left: 45px;
     }
-    .stories3{
+
+    .stories3 {
         flex-direction: column;
     }
-    .stories3>img{
+
+    .stories3>img {
         width: 600px;
         margin-top: -808px;
     }
-    .stories3>.text3>h1{
+
+    .stories3>.text3>h1 {
         margin-top: 1100px;
     }
-    .stories3>.text3>h3{
+
+    .stories3>.text3>h3 {
         width: 400px;
     }
-    .stories3>.text3>h4{
+
+    .stories3>.text3>h4 {
         width: 400px;
     }
-    hr{
+
+    hr {
         margin-top: 150px;
     }
-    #gallery{
+
+    #gallery {
         margin-top: 850px;
     }
-    #gallery>h1{
+
+    #gallery>h1 {
         width: 550px;
     }
+
     #gallery>.gallery {
         margin-left: 1085px;
     }
@@ -1145,45 +1179,66 @@ footer>h3 {
         width: 542px;
         overflow: hidden;
     }
-    #features>.header{
+
+    #features>.header {
         width: 550px;
     }
-    .line1, .line2{
+
+    .line1,
+    .line2 {
         flex-direction: column;
     }
-    .line1>.photo1, .line2>.photo4{
-        margin-left: 0;
+
+    .line1>.photo1,
+    .line1>.photo2,
+    .line1>.photo3,
+    .line2>.photo4, 
+    .line2>.photo5,
+    .line2>.photo6{
+        margin-left: 20px;
+        border: none;
+        border-bottom: 1px solid gray;
     }
-    #form>h1{
+
+    #form>h1 {
         width: 550px;
     }
-    .all{
+
+    .all {
         flex-direction: column;
         margin-left: -130px;
     }
-    input[type="text"]{
+
+    input[type="text"] {
         width: 500px;
     }
-    .radio{
+
+    .radio {
         margin-left: -130px;
     }
-    .topic{
+
+    .topic {
         margin-left: -130px;
     }
-    select{
+
+    select {
         width: 510px;
     }
-    .textarea{
+
+    .textarea {
         margin-left: -130px;
     }
-    textarea{
+
+    textarea {
         width: 510px;
     }
-    .footerform{
+
+    .footerform {
         margin-left: -130px;
         width: 650px;
     }
-    footer{
+
+    footer {
         width: 550px;
     }
 }
